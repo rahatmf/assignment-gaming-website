@@ -62,7 +62,6 @@ nav {
     width: 60px;
     height: 32px;
 }
-
 .right-nav {
     display: flex;
     justify-content: center;
@@ -131,9 +130,12 @@ nav {
 }
 
 .added-6 {
-    display: flex;
+    /* display: flex;
     gap: 10px;
-    line-height: 40px;
+    line-height: 40px; */
+    display: block;
+        gap: 50px;
+        line-height: 30px;
 }
 
 .goat-title {

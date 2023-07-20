@@ -388,7 +388,8 @@ nav {
     border-radius: 7px;
     position: absolute;
     right: 27%;
-    top: 310%;
+    top: 315%;
+
 }
 
 /* Fifth Section */
@@ -608,6 +609,9 @@ footer {
         margin-bottom: 0px;
 
     }
+    .added-one{
+        display:block;
+    }
 
     .box-one,
     .box-two,
@@ -639,8 +643,10 @@ footer {
         padding: 2px;
         border-radius: 7px;
         position: absolute;
-        top: 293%;
+        top: 230%;
         right: 30%;
+    
+
     }
     .added-8 {
         margin-top: 30px;
@@ -650,13 +656,13 @@ footer {
     } 
 
     
-
+}
 
 
     @media screen and (max-width:576px) {
         .logo-container {
             justify-content: center;
-
+            margin-right: 40px;
         }
 
         .right-nav {
@@ -666,6 +672,7 @@ footer {
             width: 100%;
             max-height: 100%;
             gap: 30px;
+            margin-left: 20px;
 
 
         }
@@ -820,20 +827,26 @@ footer {
         .added-one {
             font-size: 35px;
         }
+        .added-9{
+            padding-bottom: 30px;
+        }
 
         .photo-gallary {
 
+            display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
+            /* display: grid;
+            grid-template-columns: 1fr; */
         }
 
         .box-one,
         .box-two,
         .box-three,
         .box-four {
-            width: 400px;
+            width: 80%;
             height: 390px;
         }
 
@@ -841,7 +854,7 @@ footer {
         .box2,
         .box3,
         .box4 {
-            width: 370px;
+            width: 90%;
             height: 330px;
         }
 
@@ -898,8 +911,8 @@ footer {
             /* right: 41%;
             bottom: 20%; */
             position: absolute;
-            top: 645%;
-            right: 40%;
+            top: 500%;
+            right: 47%;
         }
 
         .fifth-section {
@@ -965,4 +978,53 @@ footer {
             margin-right: 30px;
             text-align: center;
         }
+    }
+
+    @media screen and (max-width:425px) {
+        
+        body{
+            overflow-x: hidden;
+        }
+        .logo-container{
+            margin-right: 50px;
+        }
+        .right-nav{
+            width: 100%;
+            margin-left: 20px;
+        }
+        .btn-section {
+            display: flex;
+            gap: 15px;
+            padding-left: 40px;
+            margin-top: 80px;
+
+        }
+        .online-game-title{
+            font-size: 50px;
+            width:90%;
+        }
+        .first-transparent {
+
+            margin: 0px;
+            font-size: 50px;
+            font-weight: 700;
+            background-image: linear-gradient(#F948B2 0%, #8758F1 100%);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        .doll {
+            width: 250px;
+            height: 290px;
+            padding: 2px;
+            border-radius: 7px;
+            /* position:left; */
+            /* right: 41%;
+            bottom: 20%; */
+            position: absolute;
+            top: 490%;
+            left:8%;
+        }
+    }
+    body{
+        overflow-x:hidden;
     }

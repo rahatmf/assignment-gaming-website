@@ -976,52 +976,6 @@ footer {
             margin-bottom: 20px;
         }
     }
-
-    @media screen and (max-width:425px) {
-        
-        body{
-            overflow-x: hidden;
-        }
-        .logo-container{
-            margin-right: 50px;
-        }
-        .right-nav{
-            width: 100%;
-            margin-left: 20px;
-        }
-        .btn-section {
-            display: flex;
-            gap: 15px;
-            padding-left: 40px;
-            margin-top: 80px;
-
-        }
-        .online-game-title{
-            font-size: 50px;
-            width:90%;
-        }
-        .first-transparent {
-
-            margin: 0px;
-            font-size: 50px;
-            font-weight: 700;
-            background-image: linear-gradient(#F948B2 0%, #8758F1 100%);
-            -webkit-background-clip: text;
-            color: transparent;
-        }
-        .doll {
-            width: 170px;
-            height: 190px;
-            padding: 2px;
-            border-radius: 7px;
-            /* position:left; */
-            /* right: 41%;
-            bottom: 20%; */
-            position: absolute;
-            top:200px;
-            left:-22px;
-        }
-    }
     body{
         overflow-x:hidden;
     }
